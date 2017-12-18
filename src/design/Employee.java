@@ -18,11 +18,15 @@ public interface Employee {
     public void assignDepartment();
 	
 	//calculate employee salary
-	public int calculateSalary();
+	public void calculateSalary();
 	
 	//employee benefit
 	public void benefitLayout();
-	
+
+	//employee medical benefit
+	public void medicalinsurance();
+
+
 	
 
 }

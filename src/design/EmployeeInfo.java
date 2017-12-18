@@ -2,7 +2,7 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo{
+public class EmployeeInfo extends EmployeeAbstClass{
 	
  /*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
  * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
@@ -19,6 +19,8 @@ public class EmployeeInfo{
 	 * declare few static and final fields and some non-static fields
 	 */
 	static String companyName;
+
+
 	
 	/*
 	 * You must implement the logic for below 2 methods and 
@@ -31,10 +33,17 @@ public class EmployeeInfo{
 	 * Must implement below constructor.
 	 */
 	public EmployeeInfo(int employeeId){
-		
+		System.out.println();
+
+
+
 	}
+
     public EmployeeInfo(String name, int employeeId){
-		
+		System.out.println();
+
+
+
 	}
 	
 	/*
@@ -45,9 +54,45 @@ public class EmployeeInfo{
 	 * So you probably need to send 2 arguments.
 	 * 
 	 */
-	public static int calculateEmployeeBonus(){
-		int total=0;
-		return total;
+	public int employeeId(){
+		System.out.println("employeeID");
+		return 0;
+	}
+
+	//employeeName() will return employee name
+	public String employeeName(){
+		System.out.println("employeeName");
+		return null;
+	}
+
+	//assignDepartment() will assign employee to departments
+	public void assignDepartment(){
+		System.out.println("assignDepartment");
+	}
+
+	//calculate employee salary
+	public void calculateSalary(){
+		System.out.println("calculateSalary");
+	}
+
+	//employee benefit
+	public void benefitLayout(){
+		System.out.println("benefitLayout");
+	}
+
+	//employee medical plan
+	public void medicalinsurance(){
+		System.out.println("medicalinsuran");
+	}
+
+	//employee paid time off
+	public void paidoff(){
+		System.out.println("paidoff");
+	}
+
+	//employee paid holidays
+	public void paidholidys (){
+		System.out.println("paidholidays");
 	}
 	
 	/*
@@ -105,22 +150,22 @@ public class EmployeeInfo{
 					date = 6;
 					break;
 				case July:
-					date = 1;
+					date = 7;
 					break;
 				case August:
-					date = 1;
+					date = 8;
 					break;
 				case September:
-					date = 1;
+					date = 9;
 					break;
 				case October:
-					date = 1;
+					date = 10;
 					break;
 				case November:
-					date = 1;
+					date = 11;
 					break;
 				case December:
-					date = 1;
+					date = 12;
 					break;
 				default:
 					date = 0;

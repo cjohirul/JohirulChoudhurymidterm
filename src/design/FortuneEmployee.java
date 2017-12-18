@@ -1,5 +1,7 @@
 package design;
 
+import java.util.HashMap;
+
 public class FortuneEmployee {
 
 	/**
@@ -14,7 +16,12 @@ public class FortuneEmployee {
 	 *
 	 **/
 	public static void main(String[] args) {
-		
+		Employee emp1 = new EmployeeInfo("Aryan",0007);
+		emp1.assignDepartment();
+		emp1.benefitLayout();
+		emp1.calculateSalary();
+		emp1.medicalinsurance();
+		EmployeeInfo.calculateEmployeePension();
 
 
 	}

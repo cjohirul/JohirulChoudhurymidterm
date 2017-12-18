@@ -1,32 +1,83 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-What are the various operations that can be performed on different Data Structures?
-List out the areas in which data structures are applied extensively?
-what is an Array?
-what is the difference between the Array and ArrayList?
-what is LinkedList?
-How is an Array different from Linked List?
-what is queue?
-what is stack?
-what is FIFO and LIFO?
-what is the order of complexity?
-what is the best case to search an element from an array?
-what is the worst case to search an element from an array?
-what is tree in data structure?
-what is graph in data structure?
-what is the difference between the HashTable and HashMap?
-What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
-How HashMap works in java?
-What is ArrayIndexOutOfBoundsException in java? When it occurs?
-What are the different ways of copying an array into another array?
-What is difference between an array and a linked list?
-What is DFS and BFS?
-What is Recursion?
-What are linear and non linear data Structures?
-What is Big-(O)-notation?
-Outlined different kind of sorting algorithm with time complexity?
+A: Process of using logic and condition.
 
+What are the various operations that can be performed on different Data Structures?
+A: a) Traversing 2) Searching 3) Inserting ) Deleting 5) Sorting 6) Merging
+
+List out the areas in which data structures are applied extensively?
+A: a)Compiler Design b)Operating System c) Management System d)Statistical analysis package,
+   e)Numerical Analysis f)Graphics g)Artificial Intelligence h)Simulation
+
+what is an Array?
+A:Array is a container whose fixed number of value.
+
+what is the difference between the Array and ArrayList?
+A: Array: must define. ArrayList: set of method access elements
+
+what is LinkedList?
+A: The type of elements held in this collection.
+
+How is an Array different from Linked List?
+
+what is queue?
+A:FIFO
+LILO
+what is stack?
+A:Last in first out.
+first in Last out.
+
+what is FIFO and LIFO?
+A:Last in first out.
+  first in Last out.
+
+what is the order of complexity?
+A:Measure of time take running the algorithm.
+
+what is the best case to search an element from an array?
+A: to find missing number or secret number.
+
+what is the worst case to search an element from an array?
+A:simple binary search. ex. Big 'o' notation
+
+what is tree in data structure?
+A: root values contains subtree of children with parent node.
+
+what is graph in data structure?
+A: use in Google map and retail domain ex.Amazon.
+
+what is the difference between the HashTable and HashMap?
+A:HashTable not allow multi. HashMap allows synchronized.
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A:
+
+How HashMap works in java?
+A: HashMap uses in red zone. ex- more demand and less supply
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A:
+
+What are the different ways of copying an array into another array?
+
+What is difference between an array and a linked list?
+A: quick insertion, very fast access if index known. linked list type of elements held in this collection.
+
+What is DFS and BFS?
+A:
+
+What is Recursion?
+A:It is math solving problema to refer down smaller and smaller until find smallest number.
+
+What are linear and non linear data Structures?
+A:Linear data structures follow some sequence and non linear Structures data not follow sequence.
+
+What is Big-(O)-notation?
+A:use worse case senario.
+
+Outlined different kind of sorting algorithm with time complexity?
+A:heap sort, merge sort.
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.

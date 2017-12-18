@@ -20,11 +20,11 @@ public class Numbers {
 
 	public static void main(String[] args) throws Exception {
 		
-		int [] num = new int[100];
+		int [] num = new int[1000];
 		
 		Random rand = new Random();
 		for(int i=0; i<num.length; i++){
-			num[i] = rand.nextInt(1000);
+			num[i] = rand.nextInt(1000000);
 		}
 
 		ConnectDB connectDB = new ConnectDB();
@@ -44,7 +44,11 @@ public class Numbers {
 		algo.insertionSort(num);
 		long insertionSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
-
+         connectDB.InsertDataFromArryToMySql(num, "insertion_sort", "SortingNumbers");
+		List<String> number1 = connectDB.readDataBase("insertion_sort", "SortingNumbers");
+		for(String st:number1){
+			System.out.print( " " + st);
+		}
 		//Continue for rest of the Sorting Algorithm....
 
 	}

@@ -2,44 +2,129 @@ Please answer the below core-java Questions:
 
 
 What jdk contains or composed of and define each components?
+A: Java development toolkit.
+
 What is IDE?
+A: Integrated Development Environment.
 What are the IDEs available in the market to support java?
+A: Eclipse, Intellij
 Explain the entire java life cycle.
+A:Editor -> Source code -> Javac -> Bytecodes(for .class) -> Java Virtual Machine(JVM)-> Operating System
 what is class?
+A: blue-print of object
+
 What is object?
+A:Intance of class
+
 What is the entry point of an application?
+A:main method
 Why main is static?
+A: JVM looks for main static method to execute code.
+
 What is the difference between an Interface and Abstract class?
+A:Interface is road map of class and Abstract class is few define method with atleast one abstract method. Interface use
+keyword 'implements' to use implemented . Abstract class use keyword 'extended' to extend multiple interface classes.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A: Interface has declare method. so, interface can use subclass with define method.
+it could be invoked the method from abstract class reference pointing to subclass object
+Then, I can create object from extended class.
+
 what is Access Specifier?
+A: a) public: can able to access from anywhere. b)private: It not allow to access unless use getter and setter method.
+
 What is OOP ? Define each feature of java OOP.
+A: Object Oriented Programming
+1)Abstraction: implementation
+2)Encapsulation: hidding of data
+3)Inheritance: class can extends to another subclass
+4)Polymorphism: ability to take many form.
+
 What is API? Name list of API that you have used so far.
+A: Application Programming Interface
+ex: android, google
+
 Does java support multiple inheritance?
+A:Yes.
+
 What is method overloading and when it happens?
+A:Use same Define method with diffrent parameter or signature.
+
 Explain exceptions in java and how to handle it.
+A:  Error code when javac pass the code without error. Then, Exception Handling to cath run time error.
+
 What is static keyword in java? How it has been used in variables and methods ?
+A: Static can access to no void method classes. variable with multi non-static method can access from static method.
+
 What is final and how it has been used variables and methods?
+A: Final cannot modify value of variable.
+
 What is final, finally and finalize?
+A:a)final: cannot modify subclass,
+b)finally: clean up after try catch block
+c)Destroy the object from hip
+
 What is a constructor ?
+A:constructor allocates memory and same name is class name. Initialize object.
+
 What is "this" keyword in java ?
+A: "this" refers to global variable of constructor.
+
 What is "super" keyword in java?
+A: Super uses in subclass to call define method.
+
 What is JVM stand for ?
+A: Java Virtual Machine
+
 What version of java are you using?
+A:Java "1.8.0_131"
+
 What is JAR stand for ?
+A: java archive
+
 What is compile time and run time?
+A: when application execute in javac run time.
+
 What is heap?
+A:amount of allocate to application in javac.
+
 How java manage it's memory?
+A: local variable stay in stack.
+
 What is the difference between String, StringBuffer and StringBuilder?
+A: String cannot be changed. However, StringBuffer and StringBuilder can changed values.
+
 What is Singleton class?
+A: It contains access permission.
+
 What is Serialization and Deserialization?
+A:Serialization is process of converting in squence of byte which insert in database. Deserialization is reverse process
+of Serialization.
+
 Which one will take more memory, an int or Integer?
+A:Integer
+
 Why is String Immutable in Java?
+A: can be modified.
+
 What is constructor chaining in Java?
+A: method chaining.
+
 The difference between Serial and Parallel Garbage Collector?
+A: Serial collector is default copy collector.Parallel Garbage Collector is JVM default collector.
+
 What is JIT stands for?
+A: Just In Time.
+
 Explain Java Heap space and Garbage collection?
+A: Java is devided to two section.1)Heap space 2)Permgen. Both could be set during JVM launch. During Garbage
+collection objects clear those not are used.
+
 Can you guarantee the garbage collection process?
+A: During Garbage collection objects clear those not are used.
+
 What is the difference between stack and heap in Java?
+A:stack is allocation memory and heap is dynamic.
 
 
 
