@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15e60fdd-90b9-4062-96b0-eeea918c5382" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CodingExamJuly2017.iml" afterPath="$PROJECT_DIR$/CodingExamJuly2017.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/algorithm/Numbers.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/algorithm/Numbers.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/algorithm/Sort.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/algorithm/Sort.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/databases/ConnectDB.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/databases/ConnectDB.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/datastructure/DataReader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/datastructure/UseArrayList.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/definition/core-java-conceptual-questions" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/definition/core-java-conceptual-questions" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/definition/data-structure-questions" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/definition/data-structure-questions" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/Factorial.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/parser/Student.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/parser/Student.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/problems/Anagram.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/problems/DuplicateWord.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/problems/Palindrome.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/problems/Permutation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/secret.properties" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/secret.properties" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" />
-      <change beforePath="$PROJECT_DIR$/src/databases/ConnectDB.java" afterPath="$PROJECT_DIR$/src/databases/ConnectDB.java" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" />
-      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" />
-      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" />
-      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" afterPath="$PROJECT_DIR$/src/design/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" />
-      <change beforePath="$PROJECT_DIR$/src/math/Factorial.java" afterPath="$PROJECT_DIR$/src/math/Factorial.java" />
-      <change beforePath="$PROJECT_DIR$/src/math/Fibonacci.java" afterPath="$PROJECT_DIR$/src/math/Fibonacci.java" />
-      <change beforePath="$PROJECT_DIR$/src/math/FindMissingNumber.java" afterPath="$PROJECT_DIR$/src/math/FindMissingNumber.java" />
-      <change beforePath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" afterPath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/parser/XmlReader.java" afterPath="$PROJECT_DIR$/src/parser/XmlReader.java" />
-      <change beforePath="$PROJECT_DIR$/src/problems/Anagram.java" afterPath="$PROJECT_DIR$/src/problems/Anagram.java" />
-      <change beforePath="$PROJECT_DIR$/src/problems/DuplicateWord.java" afterPath="$PROJECT_DIR$/src/problems/DuplicateWord.java" />
-      <change beforePath="$PROJECT_DIR$/src/problems/Palindrome.java" afterPath="$PROJECT_DIR$/src/problems/Palindrome.java" />
-      <change beforePath="$PROJECT_DIR$/src/problems/Permutation.java" afterPath="$PROJECT_DIR$/src/problems/Permutation.java" />
-      <change beforePath="$PROJECT_DIR$/src/secret.properties" afterPath="$PROJECT_DIR$/src/secret.properties" />
-    </list>
+    <list default="true" id="15e60fdd-90b9-4062-96b0-eeea918c5382" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -242,11 +205,6 @@
             <path>
               <item name="MidtermJuly2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="MidtermJuly2017" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MidtermJuly2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MidtermJuly2017" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -498,7 +456,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -514,7 +471,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19729729" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19729729" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
